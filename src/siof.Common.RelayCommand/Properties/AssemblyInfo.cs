@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("siof.Common.RelayCommand")]
-[assembly: AssemblyDescription("Simple library with dispatched RelayCommand classes for command binding in MVVM projects")]
+[assembly: AssemblyDescription("Simple library containing RelayCommand classes with dispatched UpdateCanExecuteState function for command binding in MVVM projects")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("siof.Common.RelayCommand")]

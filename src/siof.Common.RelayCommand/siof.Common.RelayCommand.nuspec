@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>siof.Common.RelayCommand</id>
+    <version>1.0.0</version>
+    <authors>siof</authors>
+    <owners>siof</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/siof/common.relaycommand/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/siof/common.relaycommand</projectUrl>
+    <description>Simple library containing RelayCommand classes with dispatched UpdateCanExecuteState function for command binding in MVVM projects</description>
+    <copyright>siof</copyright>
+    <repository type="git" url="https://github.com/siof/common.relaycommand" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+    </dependencies>
+  </metadata>
+    <files>
+        <file src="bin\Release\siof.Common.RelayCommand.*" target="lib\net40" />
+    </files>
+</package>
