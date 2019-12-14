@@ -19,16 +19,13 @@ namespace siof.Common
 
         public RelayCommand(Action<T> execute, Func<T, bool> canExecute)
         {
-            if (execute == null)
-                throw new ArgumentNullException("execute");
-
-            _execute = new Action<T>(execute);
+            _execute = execute ?? throw new ArgumentNullException(nameof(execute));
 
             if (canExecute != null)
-                _canExecute = new Func<T, bool>(canExecute);
+                _canExecute = canExecute;
         }
 
-        public event EventHandler _canExecuteChanged;
+        private event EventHandler _canExecuteChanged;
 
         public event EventHandler CanExecuteChanged
         {
