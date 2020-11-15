@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
     <PropertyGroup>
-        <TargetFrameworks>net40;net452;net461;net472;net48;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+        <TargetFrameworks>net40;net452;net461;net472;net48;netcoreapp3.1;net5.0-windows</TargetFrameworks>
         <UseWPF>true</UseWPF>
         <RootNamespace>siof.Common</RootNamespace>
-        <PackageVersion>1.1.0</PackageVersion>
+        <PackageVersion>1.2.0</PackageVersion>
         <Authors>siof</Authors>
         <PackageLicenseUrl>https://github.com/siof/common.relaycommand/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/siof/common.relaycommand</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>WPF MVVM</PackageTags>
-        <PackageReleaseNotes>1.1.0 - move to .net core 3 project</PackageReleaseNotes>
+        <PackageReleaseNotes>1.2.0 - Added .net 5.0 windows target, removed .netcore 3.0 target
+        1.1.0 - move to .net core 3 project</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Description>Simple library containing RelayCommand classes with dispatched UpdateCanExecuteState function for command binding in MVVM projects</Description>
